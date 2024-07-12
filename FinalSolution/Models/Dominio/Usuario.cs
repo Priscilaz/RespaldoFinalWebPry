@@ -20,5 +20,7 @@ namespace BloggieWebProject.Models.Dominio
 
         // Relación con Comentarios
         public ICollection<Comentario>? Comentarios { get; set; } = new List<Comentario>();
+    
+        //cambios solo para clonar
     }
 }
